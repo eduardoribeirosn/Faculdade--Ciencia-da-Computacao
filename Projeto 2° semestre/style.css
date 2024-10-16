@@ -1,5 +1,5 @@
 :root {
-    --cor-principal: #540303;
+    --cor-principal: #7a1a1a;
 }
 
 body {
@@ -54,7 +54,8 @@ header .divs {
 }
 
 header .headeridon {
-    color: #540303;
+    color: var(--cor-principal);
+    /* color: #540303; */
     display: block;
 }
 
@@ -78,7 +79,8 @@ header .textos {
 div.linha {
     width: 100%;
     height: 60px;
-    background-color: #540303;
+    background-color: var(--cor-principal);
+    padding: 1px 0 25px 0;
 }
 
 .linha ul {
@@ -89,6 +91,7 @@ div.linha {
     display: inline-block;
     list-style-type: none;
     padding: 15px 20px;
+    border: 1px black solid;
 }
 
 .linha ul li a {
@@ -96,4 +99,7 @@ div.linha {
     font-size: 1.3em;
     color: black;
     font-weight: bold;
+    width: 100%;
+    height: 40px;
+    display: flex;
 }
