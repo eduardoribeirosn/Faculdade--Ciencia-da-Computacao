@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -13,7 +11,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
     <title>FunilArte</title>
   </head>
   <body>
@@ -29,10 +29,10 @@
         </div>
         <ul class="nav__links" id="nav-links">
           <li class="link"><a href="#home">Home</a></li>
-          <li class="link"><a href="#about">História</a></li>
+          <li class="link"><a href="#about">Programa</a></li>
           <li class="link"><a href="#class">Serviço</a></li>
           <li class="link"><a href="#trainer">Sobre</a></li>
-          <li class="link"><a href="#price">Imagens</a></li>
+          <li class="link"><a href="#price">Comunidade</a></li>
           <li class="link"><button class="btn">ENTRE EM CONTATO</button></li>
         </ul>
       </nav>
@@ -60,9 +60,11 @@
         <img src="assets/about.png" alt="about" />
       </div>
       <div class="about__content">
-        <h2 class="section__header">Minha história</h2>
+        <h2 class="section__header">Nossa história</h2>
         <p class="section__description">
-          Acácio Flores Gonzales - 53 anos <br>Atua no ramo de reparação automotiva (funilaria e pintura) desde os 10 anos de idade, portanto hoje com mais de 40 anos de experiência na reparação automotiva, acopanhando ao longo dos anos os avanços da tecnologia em relação a técnicas e materiais relacionados a execução de um trabalho de qualidade, podendo assim atender de forma satisfatória a demanda e também seus clientes... 
+          A FunilArte é uma oficina com mais de 15 anos no mercado automotivo, localizada em Vila Prudente/SP e especializada em reparação e personalização automotiva.
+
+          Nossos colaboradores são especializados e treinados para estarem sempre atualizados as novas técnicas, assim o cliente é bem atendido no que há de melhor no mercado.
         </p>
         <div class="about__grid">
           <div class="about__card">
@@ -106,7 +108,7 @@
       <div class="class__grid">
         <div class="class__card">
           <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
-          <img src="images/image-3.jpg" alt="class" />
+          <img src="assets/class-1.jpg" alt="class" />
           <div class="class__content">
             <h4>Repintura total e parcial</h4>
             <p>Oferecemos serviços de repintura total e parcial, utilizando tintas de alta qualidade.</p>
@@ -114,7 +116,7 @@
         </div>
         <div class="class__card">
           <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
-          <img src="images/image-8.jpg" alt="class" />
+          <img src="assets/class-2.jpg" alt="class" />
           <div class="class__content">
             <h4>Reparo de amassados</h4>
             <p>Recuperamos a forma original do seu veículo com técnicas avançadas de funilaria.</p>
@@ -122,7 +124,7 @@
         </div>
         <div class="class__card">
           <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
-          <img src="images/image-5.jpg" alt="class" />
+          <img src="assets/class-3.jpg" alt="class" />
           <div class="class__content">
             <h4>Correção de Riscos e Arranhões</h4>
             <p>Riscos e arranhões podem arruinar a aparência do seu carro.</p>
@@ -130,7 +132,7 @@
         </div>
         <div class="class__card">
           <img src="assets/dot-bg.png" alt="bg" class="class__bg" />
-          <img src="images/image-10.jpg" alt="class" />
+          <img src="assets/class-4.jpg" alt="class" />
           <div class="class__content">
             <h4>Funilaria Express</h4>
             <p>Nossos serviços de micro pintura são ideais para reparar pequenos riscos e arranhões de forma rápida e eficaz.</p>
@@ -148,14 +150,14 @@
       <div class="price__grid">
         <div class="price__card">
           <div class="card border-dark rounded" style="width: 18rem;">
-            <img src="images/image-1.jpg" class="card-img-top" alt="...">
+            <img src="./assets/class-2.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-black rounded-bottom">
               <p class="card-text text-white">Funilaria e Pintura</p>
             </div>
           </div>
           <!-- ----------------------------------- -->
           <div class="card border-dark mt-5" style="width: 18rem;">
-            <img src="images/image-2.jpg" class="card-img-top" alt="...">
+            <img src="./assets/class-2.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-secondary rounded-bottom">
               <p class="card-text text-black">Cristalização</p>
             </div>
@@ -163,14 +165,14 @@
         </div>
         <div class="price__card">
           <div class="card border-dark" style="width: 18rem;">
-            <img src="images/image-4.jpg" class="card-img-top" alt="...">
+            <img src="./assets/class-2.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-secondary rounded-bottom">
               <p class="card-text text-black">Recuperação de Peças Plásticas e Polimento</p>
             </div>
           </div>
           <!-- ----------------------------------- -->
           <div class="card border-dark mt-5" style="width: 18rem;">
-            <img src="images/image-6.jpg" class="card-img-top" alt="...">
+            <img src="./assets/class-2.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-black rounded-bottom">
               <p class="card-text text-white">Vitrificação</p>
             </div>
@@ -178,14 +180,14 @@
         </div>
         <div class="price__card">
           <div class="card border-dark" style="width: 18rem;">
-            <img src="images/image-7.jpg" class="card-img-top" alt="...">
+            <img src="./assets/class-2.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-black rounded-bottom">
               <p class="card-text text-white">Recuperação de Faróis</p>
             </div>
           </div>
           <!-- ----------------------------------- -->
           <div class="card border-dark mt-5" style="width: 18rem;">
-            <img src="images/image-9.jpg" class="card-img-top" alt="...">
+            <img src="./assets/class-2.jpg" class="card-img-top" alt="...">
             <div class="card-body bg-secondary rounded-bottom">
               <p class="card-text text-black">Higienização interna</p>
             </div>
@@ -209,7 +211,7 @@
             <h4>Missão</h4>
             <hr>
             <p>
-              Nossa missão é continuamente aperfeiçoar nossa estrutura, tornando-a maior e mais bem equipada, para proporcionar resultados com excelência e agilidade. Além disso, nos dedicamos a contribuir com a geração de empregos, treinando e capacitando novos profissionais na área de reparação automotiva.
+              Proporcionar serviços de funilaria e pintura de alta qualidade, garantindo a satisfação dos clientes através de soluções eficientes, utilizando peças originais e profissionais qualificados.
             </p>
           </div>
         </div>
@@ -221,7 +223,7 @@
             <h4>Visão</h4>
             <hr>
             <p>
-              Ser reconhecida como a empresa líder em reparação automotiva, conhecida por nossa infraestrutura de ponta e por nosso compromisso com a qualidade e agilidade dos serviços prestados. Queremos ser um modelo de referência na formação e capacitação de profissionais, contribuindo para o desenvolvimento do setor.
+Ser referência no setor de funilaria e pintura automotiva, reconhecida pela excelência no atendimento e pela qualidade dos serviços, expandindo nossa presença no mercado.
             </p>
           </div>
         </div>
@@ -233,14 +235,14 @@
             <h4>Valores</h4>
             <hr>
             <p>
-              Valorizamos Excelência, Inovação, Responsabilidade Social e Agilidade, sempre buscando os melhores padrões de qualidade em todos os nossos serviços e investir constantemente em tecnologias e metodologias para melhorar nossa estrutura e serviços com rapidez e eficiência, sem comprometer a qualidade.
+              Valorizamos qualidade, transparência, inovação e respeito, sempre buscando excelência e confiança em nossos serviços.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="container bg-secondary bg-opacity-50 mb-5 p-5 rounded-5" id="contatos">
+    <div class="container bg-danger bg-opacity-50 mb-5 p-5 rounded-5" id="contatos">
       <h2 class="text-center mb-3" id="contato">Fale Conosco</h2>
       <form>
         <p class="text-center mb-3 text-white">Preencha o formulário abaixo que nossa equipe entrará em contato com você:</p>
@@ -278,8 +280,8 @@
     <footer class="footer">
       <div class="section__container footer__container">
         <div class="footer__col">
-          <h2 class="text-danger">Acácio Car</h2>
-          <p>Já atuou como prestador de serviço, em diversas regiões do estado de São Paulo, levando auxílio para resolução de problemas principalmente na área da repintura automotiva. Em 2019 foi contratado como prestador de serviço temporário, para atuar na resolução de problemas relacionados a repintura automotiva pela fabricante automobilística FIAT JEEP, onde atuou por 5 meses dentro da fábrica situada em Betim MG, para solucionar problemas, e tendo êxito para a função que foi contratado pela empresa...</p>
+          <h2 class="text-danger">Acacio Car</h2>
+          <p>Na nossa funilaria, transformamos o seu carro com excelência e dedicação. Com anos de experiência no setor, nossa equipe de profissionais qualificados está pronta para lidar com qualquer dano, desde pequenas batidas até reparos mais complexos.</p>
         </div>
         <div class="footer__col">
           <h2 class="text-danger">Navegue pelo site</h2>
